@@ -1,0 +1,3 @@
+CLASS = MOVIE_ACTING_ROLES
+movie_financial_summary.display_name, movie_financial_summary.domestic_box_office, movie_financial_summary.production_budget, movie_acting_role.display_name, movie_acting_role.billing, movie_acting_role.character_name, movie_technical_role.display_name, movie_genre.display_name, movie_source.display_name, movie_creative_type.display_name, movie_production_method.display_name, movie.sequel, movie_theatrical_release.release_date
+movie_theatrical_release.release_date is not null AND movie_financial_summary.production_budget > 0 AND movie_financial_summary.domestic_box_office > 0 AND movie_acting_role.billing<4 AND movie_acting_role.billing >0 AND movie_language.display_name="English"
