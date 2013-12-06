@@ -20,3 +20,6 @@ queries.txt:
 newqueries.txt:
   -an updated version of queries.txt with a few different features selected
   
+cineCast.mp4:
+  -a screen cast for the lazy of you who don't want to have to click links yourself
+  
